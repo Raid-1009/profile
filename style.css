@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    text-decoration: none;
+}
+
+body {
+    background-color: antiquewhite;
+}
+
+
+
+
+body.dark-mode {
+    background-color: black;
+    color: white
+    
+}
+
+
+
+.card {
+    padding: 2rem;
+    justify-content: center;
+    text-align: center;
+}
+
+.card img {
+    width: 10%;
+    border-radius: 50%;
+}
+
+.card h2 {
+    font-size: 1.2rem;
+    margin: 0.8rem;
+    padding: 0.8rem;
+}
+
+
+.card .icon {
+    margin: 1rem;
+    padding: 0.5rem;
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    color: white;
+    
+}
+
+.card .icon a {
+    display: inline-flex;
+    flex-direction: column;
+    color: rgb(106, 144, 177);
+    align-items: center;
+}
+
+
+.card button {
+    margin: 1rem;
+    padding: 1rem;
+    border-radius: 10px;
+    background-color: #201f1f;
+    color: white;
+    cursor: pointer;
+}
