@@ -1,68 +1,64 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    outline: none;
-    border: none;
-    text-decoration: none;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  border: none;
+  text-decoration: none;
 }
 
 body {
-    background-color: antiquewhite;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
 }
-
-
-
-
-body.dark-mode {
-    background-color: black;
-    color: white
-    
-}
-
-
 
 .card {
-    padding: 2rem;
-    justify-content: center;
-    text-align: center;
+  width: 300px;
+  padding: 2rem;
+  background-color: antiquewhite;
+  border-radius: 15px;
+  text-align: center;
+}
+
+.card.dark-mode {
+  background-color: black;
+  color: antiquewhite;
 }
 
 .card img {
-    width: 10%;
-    border-radius: 50%;
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  object-fit: cover;
 }
 
 .card h2 {
-    font-size: 1.2rem;
-    margin: 0.8rem;
-    padding: 0.8rem;
+  font-size: 1.2rem;
+  margin: 0.8rem;
+  padding: 0.8rem;
 }
 
-
 .card .icon {
-    margin: 1rem;
-    padding: 0.5rem;
-    display: flex;
-    justify-content: center;
-    gap: 2rem;
-    color: white;
-    
+  display: flex;
+  justify-content: center;
+  margin: 1rem;
+  padding: 0.5rem;
+  gap: 2rem;
+  color: white;
 }
 
 .card .icon a {
-    display: inline-flex;
-    flex-direction: column;
-    color: rgb(106, 144, 177);
-    align-items: center;
+  color: #74a0ae;
 }
 
-
 .card button {
-    margin: 1rem;
-    padding: 1rem;
-    border-radius: 10px;
-    background-color: #201f1f;
-    color: white;
-    cursor: pointer;
+  margin: 1rem;
+  padding: 1rem;
+  border-radius: 10px;
+  background-color: #201f1f;
+  color: white;
+  cursor: pointer;
 }
